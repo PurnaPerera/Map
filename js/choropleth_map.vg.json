@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/PurnaPerera/Map/data/covid_10_10_2020.csv"
+          "url": "https://raw.githubusercontent.com/PurnaPerera/Map/main/data/covid_10_10_2020.csv"
         },
         "key": "Country",
         "fields": ["Active"]
