@@ -11,6 +11,13 @@
         "format": {"type": "topojson", "feature": "ESP_adm2-1"}
       },
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/PurnaPerera/Map/main/js/FRA_adm2.json",
+        "format": {"type": "topojson", "feature": "FRA_adm2-1"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
     }
   ]
 }
