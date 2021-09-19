@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": "Test",
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/PurnaPerera/Map/main/js/ESP_adm2.json",
+        "format": {"type": "topojson", "feature": "ESP_adm2-1"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    }
+  ]
+}
